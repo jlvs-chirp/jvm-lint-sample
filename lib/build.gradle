@@ -6,6 +6,7 @@ plugins {
 
 lintOptions {
     lintConfig file("${project.rootDir}/config/lint/lint.xml")
+    //lintConfig file("${project.rootDir}/lint.xml")
 }
 
 java {
